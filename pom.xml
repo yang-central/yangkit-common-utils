@@ -72,12 +72,10 @@
             <version>2.4.0</version>
         </dependency>
     </dependencies>
-    <!--项目信息...-->
     <name>yangkit-common-utils</name>
     <description>common utils APIs for yangkit</description>
     <url>https://github.com/yang-central/yangkit-common-utils</url>
 
-    <!--开源协议...-->
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -85,7 +83,7 @@
         </license>
     </licenses>
 
-    <!--开发者信息-->
+
     <developers>
         <developer>
             <id>lllyfeng</id>
@@ -99,7 +97,7 @@
         </developer>
     </developers>
 
-    <!--项目在github或其它托管平台的地址-->
+
     <scm>
         <connection>https://github.com/yang-central/yangkit-common-utils.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:yang-central/yangkit-common-utils.git</developerConnection>
@@ -108,13 +106,11 @@
 
     <profiles>
         <profile>
-            <!--注意,此id必须与setting.xml中指定的一致,不要自作聪明改它名字-->
             <id>release</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
             <build>
-                <!--发布到中央SNAPSHOT仓库插件-->
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
@@ -128,7 +124,6 @@
                         </configuration>
                     </plugin>
 
-                    <!--生成源码插件-->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
@@ -158,7 +153,6 @@
                         </executions>
                     </plugin>
 
-                    <!--gpg插件-->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
@@ -179,7 +173,6 @@
 
             <distributionManagement>
                 <snapshotRepository>
-                    <!--注意,此id必须与setting.xml中指定的一致-->
                     <id>release</id>
                     <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
                 </snapshotRepository>
