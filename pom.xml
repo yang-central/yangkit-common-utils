@@ -44,7 +44,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>31.1-jre</version>
+            <version>33.5.0-jre</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
         <dependency>
@@ -60,12 +60,12 @@
         <dependency>
             <groupId>io.github.yang-central.yangkit</groupId>
             <artifactId>yangkit-common</artifactId>
-            <version>1.1.2</version>
+            <version>1.1.5</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.12.0</version>
+            <version>3.19.0</version>
         </dependency>
         <dependency>
             <groupId>com.github.albfernandez</groupId>
